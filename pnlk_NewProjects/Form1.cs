@@ -52,10 +52,20 @@ namespace pnlk_NewProjects
 
         }
 
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
         //private void okApplyModifyGetOnOffCancel1_ApplyClicked(object sender, EventArgs e)
         //{
 
         //}
-        
+
     }
 }
