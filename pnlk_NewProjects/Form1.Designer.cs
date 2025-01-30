@@ -37,8 +37,6 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.okApplyModifyGetOnOffCancel1 = new Tekla.Structures.Dialog.UIControls.OkApplyModifyGetOnOffCancel();
-            this.saveLoad1 = new Tekla.Structures.Dialog.UIControls.SaveLoad();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -118,35 +116,11 @@
             this.textBox1.Size = new System.Drawing.Size(169, 20);
             this.textBox1.TabIndex = 8;
             // 
-            // okApplyModifyGetOnOffCancel1
-            // 
-            this.okApplyModifyGetOnOffCancel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.okApplyModifyGetOnOffCancel1.Location = new System.Drawing.Point(0, 418);
-            this.okApplyModifyGetOnOffCancel1.Name = "okApplyModifyGetOnOffCancel1";
-            this.okApplyModifyGetOnOffCancel1.Size = new System.Drawing.Size(567, 32);
-            this.okApplyModifyGetOnOffCancel1.TabIndex = 10;
-            // 
-            // saveLoad1
-            // 
-            this.saveLoad1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.saveLoad1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.saveLoad1.HelpFileType = Tekla.Structures.Dialog.UIControls.SaveLoad.HelpFileTypeEnum.General;
-            this.saveLoad1.HelpKeyword = "";
-            this.saveLoad1.HelpUrl = "";
-            this.saveLoad1.Location = new System.Drawing.Point(0, 0);
-            this.saveLoad1.Name = "saveLoad1";
-            this.saveLoad1.SaveAsText = "";
-            this.saveLoad1.Size = new System.Drawing.Size(567, 32);
-            this.saveLoad1.TabIndex = 11;
-            this.saveLoad1.UserDefinedHelpFilePath = null;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(567, 450);
-            this.Controls.Add(this.saveLoad1);
-            this.Controls.Add(this.okApplyModifyGetOnOffCancel1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.listBox1);
@@ -164,6 +138,8 @@
 
         }
 
+
+
         #endregion
 
         private System.Windows.Forms.Button button1;
@@ -175,8 +151,6 @@
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.TextBox textBox1;
-        private Tekla.Structures.Dialog.UIControls.OkApplyModifyGetOnOffCancel okApplyModifyGetOnOffCancel1;
-        private Tekla.Structures.Dialog.UIControls.SaveLoad saveLoad1;
     }
 }
 
